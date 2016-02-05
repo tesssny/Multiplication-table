@@ -1,6 +1,6 @@
 """
 multiplication-table.py
-Author: <your name here>
+Author: Tess Snyder
 Credit: <list sources used, if any>
 Assignment:
 
