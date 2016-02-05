@@ -1,7 +1,7 @@
 """
 multiplication-table.py
 Author: Tess Snyder
-Credit: Ethan Adner
+Credit: Ethan Adner, http://stackoverflow.com/questions/11266068/python-avoid-new-line-with-print-command, Mary Feyrer
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
@@ -26,10 +26,8 @@ h=int(input("Height of multiplication table: "))
 
 for x in range(1,w):
     for y in range(1,h):
-       print(x*y)
+       print(x*y, end=" ")
         
 for x in range(0,h):
     print("X"*w)
     
-for x in range(0,w):
-    print("{0:>3}".format(w))
