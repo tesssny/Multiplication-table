@@ -24,10 +24,7 @@ Height of multiplication table: 8
 w=int(input("Width of multiplication table: "))
 h=int(input("Height of multiplication table: "))
 
-for x in range(1,w):
-    for y in range(1,h):
-       print(x*y, end=" ")
-        
-for x in range(0,h):
-    print("X"*w)
-    
+for x in range(1,h+1):
+    print("\n")
+    for y in range(1,w+1):
+       print("{0:>3}".format(x*y), end=" ")
